@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//emekajoe.github.io/portfolio/static/css/main.74819d29.css",
+    "main.js": "/https//emekajoe.github.io/portfolio/static/js/main.6b3ee3bf.js",
+    "index.html": "/https//emekajoe.github.io/portfolio/index.html",
+    "main.74819d29.css.map": "/https//emekajoe.github.io/portfolio/static/css/main.74819d29.css.map",
+    "main.6b3ee3bf.js.map": "/https//emekajoe.github.io/portfolio/static/js/main.6b3ee3bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74819d29.css",
+    "static/js/main.6b3ee3bf.js"
+  ]
+}
