@@ -1,0 +1,69 @@
+.utility {
+  margin-right: 70px;
+  z-index: 2000;
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+}
+
+input {
+  transition: all 0.3s;
+  display: none;
+}
+
+input:checked + label .label::before {
+  transform: rotate(55deg);
+  transform-origin: center center;
+  position: absolute;
+  top: 50%;
+}
+input:checked + label .label::after {
+  transform: rotate(-55deg);
+  position: absolute;
+  top: 50%;
+}
+
+label {
+  background-color: #05386b;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.466);
+  border-radius: 10px;
+  display: inline-block;
+  height: 34px;
+  width: 34px;
+  position: absolute;
+}
+
+.label {
+  margin: 0 auto;
+}
+
+.label::before {
+  content: "";
+  width: 25px;
+  padding: 0;
+  top: 30%;
+  left: 15%;
+  /* transform: translate(-50%, -40%); */
+  height: 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.215);
+  position: absolute;
+  background-color: #5cdb95;
+  transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  margin: 0;
+}
+.label::after {
+  content: "";
+  top: 60%;
+  left: 15%;
+  border-radius: 2px;
+  width: 25px;
+  height: 4px;
+  /* transform: translate(-50%, -50%); */
+  /* margin-top: 10px; */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.215);
+  position: absolute;
+  background-color: #5cdb95;
+  transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  padding: 0;
+}

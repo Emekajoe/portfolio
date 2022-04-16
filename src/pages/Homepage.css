@@ -1,0 +1,16 @@
+.homepage {
+  position: relative;
+  height: 100%;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #8ee4af;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(4, 54, 102);
+}
